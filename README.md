@@ -10,7 +10,7 @@ If the latest version is not found in the directory, the latest release is downl
 4. Download the latest tarball
 5. Download checksum of latest tarball from https://api.github.com/repos/GloriousEggroll/proton-ge-custom/releases/latest
 6. Verify the tarball checksum
-7. Create directory ´$HOME/.steam/root/compatibilitytools.d/ if it does not exist
+7. Create directory ´´´$HOME/.steam/root/compatibilitytools.d/´´ if it does not exist
 8. Extract the tarball from temporary working directory to $HOME/.steam/root/compatibilitytools.d/
 9. Remove temporary working directory /tmp/proton-ge-custom/
 
