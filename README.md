@@ -17,14 +17,9 @@ This script improves upon the original GE-Proton installation script by automati
 
 ## Key Improvements
 
-### 1. **Version Check**
-- Prevents redundant downloads and installations by detecting whether the latest release is already installed.
-
-### 2. **Enhanced Usability**
-- Uses dynamic variables for paths and version names, making the script easier to modify and read.
-
-### 3. **Cleanliness**
-- Automatically removes the temporary working directory after installation, ensuring no leftover files.
+**Version Check:** Prevents redundant downloads and installations by detecting whether the latest release is already installed.
+**Enhanced Usability:** Uses dynamic variables for paths and version names, making the script easier to modify and read.
+**Cleanliness:** Automatically removes the temporary working directory after installation, ensuring no leftover files.
 
 ## Usage
 
