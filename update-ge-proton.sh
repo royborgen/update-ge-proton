@@ -10,8 +10,10 @@ temp_dir="/tmp/proton-ge-custom/"
 
 echo "Latest release is $dir_name"
 
-if [ ! -d "${install_dir}${dir_name}" ]; then
-    	#download tarball
+if [ -d "${install_dir}${dir_name}" ]; then
+	echo "$dir_name is already installed"
+    else
+	#download tarball
     	# make temp working directory
     	echo "Creating temporary working directory $temp_dir..."
     	rm -rf $temp_dir
@@ -45,7 +47,5 @@ if [ ! -d "${install_dir}${dir_name}" ]; then
     	rm -rf $temp_dir
 	echo "Installed latest version $dir_name"
     	echo "All done :)" 
-else
-	echo "$dir_name is already installed"
 
 fi
